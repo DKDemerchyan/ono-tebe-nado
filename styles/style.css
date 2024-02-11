@@ -1,21 +1,40 @@
 ﻿.header {
-
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    grid-template-areas: "menu logo address";
+    padding: 92px 24px 96px;
+    background-color: aqua;
 }
 
 .header__menu {
-
+    grid-area: menu;
+    display: flex;
+    padding-left: 27px;
 }
 
 .header__links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 31px;
+    list-style-type: circle;
+
+    font-family: Raleway, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
 
 }
 
 .header__links-list-item {
-
+    text-decoration: underline;
 }
 
 .header__links-list-item_no-bullit {
-
+    list-style-type: none;
 }
 
 .header__link {
@@ -27,7 +46,10 @@
 }
 
 .header__logo {
-
+    grid-area: logo;
+    display: flex;
+    width: 148px;
+    height: 105px;
 }
 
 .header__logo-image {
@@ -35,9 +57,23 @@
 }
 
 .address {
-
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    justify-self: end;
+    width: 240px;
 }
 
 .header__address {
+    grid-area: address;
+    padding-right: 26px;
+
+
+    font-family: Raleway, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
 
 }
