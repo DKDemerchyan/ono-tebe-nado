@@ -67,6 +67,7 @@
 /*  Section cover  */
 .cover {
     position: relative;
+    padding: 165px 50px 51px;
     background-image: url("/images/cover.jpg");
     background-position: center;
     background-size: cover;
@@ -82,7 +83,6 @@
 .cover__title {
     position: relative;
     z-index: 1;
-    padding: 165px 50px 135px;
     color: white;
     font-weight: 700;
     font-size: 100px;
@@ -92,6 +92,7 @@
 
 .aligned-text {
     display: block;
+    padding-top: 20px;
 }
 
 .aligned-text_center {
@@ -111,15 +112,40 @@
 }
 
 .cover__description {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 100px;
+    padding-top: 135px;
     position: relative;
     z-index: 1;
+
 }
 
 .cover__description-text {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 11px;
+
 
 }
 
 .bet-button {
+    background: transparent;
+    border: 1px solid white;
+    width: 256px;
+    height: 51px;
 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.bet-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 /*  End section cover  */
