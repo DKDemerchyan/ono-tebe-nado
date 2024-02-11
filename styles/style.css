@@ -108,7 +108,7 @@
 }
 
 .no-letter-spacing {
-
+    letter-spacing: unset;
 }
 
 .cover__description {
@@ -127,8 +127,6 @@
     font-weight: 400;
     text-transform: uppercase;
     word-spacing: 11px;
-
-
 }
 
 .bet-button {
@@ -149,3 +147,64 @@
     cursor: pointer;
 }
 /*  End section cover  */
+
+
+/*  Section lots  */
+.lots {
+    margin: 180px 24px 0;
+}
+
+.lots__heading {
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin-top: 27px;
+}
+
+.lots__card-list-item {
+    background-color: aqua;
+    position: relative;
+    width: 334px;
+    height: 563px;
+}
+
+.card-link {
+    position: absolute;
+}
+
+.card {
+
+}
+
+.card_type_film {
+
+}
+
+.card_type_book {
+
+}
+
+.card_type_picture {
+
+}
+
+.card__title {
+
+}
+
+.card__text {
+
+}
+
+.lots__look-more-link {
+    display: block;
+    padding-top: 30px;
+}
+/*  End section lots  */
