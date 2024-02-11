@@ -1,4 +1,5 @@
-﻿.header {
+﻿/*  Section header  */
+.header {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     grid-template-areas: "menu logo address";
@@ -77,3 +78,52 @@
     text-align: left;
 
 }
+/*  End section header  */
+
+
+/*  Section cover  */
+.cover {
+
+}
+
+.overlay {
+
+}
+
+
+.cover__title {
+
+}
+
+.aligned-text {
+
+}
+
+.aligned-text_center {
+
+}
+
+.aligned-text_right {
+
+}
+
+.letter-spacing-extended {
+
+}
+
+.no-letter-spacing {
+
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+
+}
+/*  End section cover  */
