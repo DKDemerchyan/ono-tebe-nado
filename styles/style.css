@@ -88,23 +88,33 @@
     position: relative;
     z-index: 1;
     color: white;
-    font-weight: 700;
-    font-size: 100px;
-    letter-spacing: 0.3em;
     text-transform: uppercase;
 }
 
 .aligned-text {
     display: block;
-    padding-top: 20px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    letter-spacing: 0.3em;
 }
 
 .aligned-text_center {
+    display: block;
     text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
+    display: block;
     text-align: end;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
 }
 
 .letter-spacing-extended {
