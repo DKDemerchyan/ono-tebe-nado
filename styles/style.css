@@ -159,6 +159,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
+    text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -169,7 +170,7 @@
 }
 
 .lots__card-list-item {
-    background-color: aqua;
+    color: white;
     position: relative;
     width: 334px;
     height: 563px;
@@ -177,34 +178,110 @@
 
 .card-link {
     position: absolute;
+    inset: 0;
 }
 
 .card {
+    position: absolute;
+    inset: 0;
+    padding: 51px 40px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
 .card_type_film {
-
+    background-image: url("/images/card-lot-01.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_book {
-
+    background-image: url("/images/card-lot-02.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_picture {
-
+    background-image: url("/images/card-lot-03.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .card__title {
-
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .card__text {
-
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .lots__look-more-link {
     display: block;
     padding-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: underline;
 }
 /*  End section lots  */
+
+/*  Section about  */
+.about {
+    display: grid;
+    grid-template-columns: 359px 693px;
+    grid-template-areas: 'logo column';
+    margin: 148px 24px;
+}
+
+
+.about__logo {
+    grid-area: logo;
+    position: relative;
+    margin: 35px 47px;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+}
+
+.about__logo-image {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 148px;
+    height: 114px;
+}
+
+.about__column {
+    grid-area: column;
+    margin: 133px 0 13px;
+}
+
+.about__title {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.about__text {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/*  End section about  */
+
+
+/*  Footer section  */
+
+/*  End footer section  */
