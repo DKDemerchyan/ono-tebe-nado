@@ -127,7 +127,7 @@
 }
 
 .no-letter-spacing {
-    letter-spacing: unset;
+    letter-spacing: initial;
 }
 
 .cover__description {
@@ -145,7 +145,7 @@
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
-    word-spacing: 11px;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -153,7 +153,6 @@
     border: 1px solid white;
     width: 256px;
     height: 51px;
-
     color: white;
     text-transform: uppercase;
     font-weight: 500;
@@ -243,18 +242,18 @@
 }
 
 .lots__look-more-link {
-    display: block;
-    padding-top: 30px;
+    display: inline-block;
+    margin: 30px 40px 0;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 /*  End section lots  */
 
 /*  Section about  */
 .about {
-    background-color: aqua;
     display: grid;
     grid-template-columns: 359px 693px;
     grid-template-areas: 'logo column';
